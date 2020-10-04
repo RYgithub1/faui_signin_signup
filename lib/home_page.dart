@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         child: SingleChildScrollView(   /// 部分のcolumnでなく全体のこっち[SingleChildScrollView]
           child: Column(
             children: [
-              // HeaderPart(),
+              HeaderPart(),
               InputPart(),
               FooterPart(),
             ]

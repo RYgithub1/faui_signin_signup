@@ -29,8 +29,8 @@ class _InputPartState extends State<InputPart> {
     return Column(
       children: <Widget>[
         SizedBox(height:20.0),
-        Text("email:$_textEmail", style:TextStyle(color: Colors.amber)),
-        Text("password:$_textPassword", style:TextStyle(color: Colors.amber)),
+        Text("check ur email:$_textEmail", style:TextStyle(color: Colors.amber)),
+        /// Text("password:$_textPassword", style:TextStyle(color: Colors.amber)), ///[表示されたら困る為///]
 
         TextField(  /// [TextField...EMAIL]
           maxLength: 88,  // 入力数
